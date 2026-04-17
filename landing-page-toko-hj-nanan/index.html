@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -14,7 +14,7 @@
     <title>Toko Hj. Nanan Sukabumi</title>
   </head>
   <body>
-    <header id="toko-kue">
+    <header>
       <div class="jumbotron">
         <h1>Toko Kue Hj. Nanan</h1>
         <p>
@@ -22,18 +22,25 @@
           atau grosir.
         </p>
       </div>
-      <nav class="navbar-container">
-        <ul class="navbar-content">
-          <li><a href="#">Sejarah</a></li>
-          <li><a href="#">Produk Unggulan</a></li>
-          <li><a href="#">Testimoni Pelanggan</a></li>
-        </ul>
-      </nav>
     </header>
+    <nav>
+      <ul class="navbar-content">
+        <li><a href="#about-us">Home</a></li>
+        <li><a href="#featured">Produk Unggulan</a></li>
+        <li><a href="#location">Lokasi</a></li>
+        <li>
+          <a
+            href="https://www.dicoding.com/users/mhaidar55/academies"
+            target="_blank"
+            >Tentang Pengembang</a
+          >
+        </li>
+      </ul>
+    </nav>
     <main>
       <!-- Articles -->
       <div class="content">
-        <div class="about-us">
+        <div id="about-us">
           <h2>Tentang Kami</h2>
           <div class="about-description">
             <img
@@ -53,6 +60,113 @@
                 menengah yang ingin mendapatkan barang dagangan dengan harga
                 murah.
               </p>
+            </div>
+          </div>
+        </div>
+        <article id="featured">
+          <h2>Produk Unggulan</h2>
+          <div class="article-content">
+            <div class="card">
+              <h3>Bolu Pisang</h3>
+              <div class="card-description">
+                <figure>
+                  <img src="assets/Foto Bolpis.jpeg" alt="foto bolpis.jpeg" />
+                  <figcaption><h4>Hanya Rp.1750</h4></figcaption>
+                </figure>
+                <p>
+                  Demennya yang manis-manis dan lembut, sudah tentu bolu pisang
+                  kukus menjadi andalan cemilan sehari-hari. Bolu pisang kukus
+                  kami dibuat dari pisang pilihan dengan tekstur yang empuk dan
+                  rasa yang legit di setiap gigitan. Harganya yang sangat
+                  terjangkau menjadikannya pilihan favorit untuk semua kalangan.
+                  Di kios kami, bolu pisang kukus dijual dengan harga Rp.1750
+                  per pcs, atau cukup Rp.5000 saja sudah dapat 3. Sangat murah,
+                  enak, dan bikin nagih.
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <h3>Kripset Kembar (Pak)</h3>
+              <div class="card-description">
+                <figure>
+                  <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlWiufnhdPHfR7PAhv6TnTjcYLh2LGeTuRcg&s"
+                    alt="foto kripset ngeunah"
+                  />
+                  <figcaption><h4>Hanya Rp.8000</h4></figcaption>
+                </figure>
+                <p>
+                  Orang Sunda demennya yang pedes-pedes, sudah tentu kripset
+                  menjadi andalan cemilan pedasnya. Kripset (Keripik Setan) merk
+                  Kembar adalah kripik pedas dengan kualitas terbaik di
+                  kelasnya. Harganya yang murah menjadikannya top camilan bagi
+                  orang-orang yang menyukai makanan pedas. Di Toko Hj. Nanan,
+                  kami menjual kripset kembar dengan harga Rp.8000 saja. Sangat
+                  murah dan memuaskan.
+                </p>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article id="location">
+          <h2>Lokasi</h2>
+          <div class="article-content">
+            <div class="card">
+              <div class="map">
+                <div class="embed-map-responsive">
+                  <div class="embed-map-container">
+                    <iframe
+                      class="embed-map-frame"
+                      frameborder="0"
+                      scrolling="no"
+                      marginheight="0"
+                      marginwidth="0"
+                      src="https://maps.google.com/maps?width=600&height=400&hl=en&q=Toko%20Nanan%20kue%20basah%20dan%20kering&t=&z=16&ie=UTF8&iwloc=B&output=embed"
+                    ></iframe
+                    ><a
+                      href="https://idolsofash.app"
+                      style="
+                        font-size: 2px !important;
+                        color: gray !important;
+                        position: absolute;
+                        bottom: 0;
+                        left: 0;
+                        z-index: 1;
+                        max-height: 1px;
+                        overflow: hidden;
+                      "
+                      >Idols of Ash</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <p>
+                Jl. Lettu Bakrie No.7, Nyomplong, Kec. Warudoyong, Kota
+                Sukabumi, Jawa Barat 43131
+              </p>
+            </div>
+          </div>
+        </article>
+      </div>
+      <!-- Aside here -->
+      <aside>
+        <div class="informasi-toko">
+          <h2>Informasi Toko</h2>
+          <ul>
+            <li id="foto-pemilik">
+              <img src="assets/Foto Abi.jpeg" alt="Foto Pemiliki Toko" />
+            </li>
+            <li>
+              <strong>Nama Toko:</strong> Toko Kue Basah dan Kering Hj. Nanan
+            </li>
+            <li><strong>Pemilik:</strong> Nanan Abdul Manan</li>
+            <li><strong>Jenis Toko:</strong> Toko Kelontong</li>
+            <li>
+              <strong>Alamat:</strong> Jl. Lettu Bakrie No.7, Nyomplong, Kec.
+              Warudoyong, Kota Sukabumi, Jawa Barat 43131
+            </li>
+            <li>
+              <strong>Informasi Kontak:</strong>
               <a
                 class="whatsapp-button"
                 aria-label="Chat on WhatsApp"
@@ -64,146 +178,23 @@
                   src="assets/ChatOnWhatsAppButton/WhatsAppButtonGreenLarge.svg"
                 />
               </a>
-            </div>
-          </div>
+            </li>
+          </ul>
         </div>
-        <article>
-          <div class="featured">
-            <h2>Produk Unggulan</h2>
-            <div class="featured-products">
-              <div class="card">
-                <h3>Kripset Kembar (Pak)</h3>
-                <div class="card-description">
-                  <figure>
-                    <img
-                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlWiufnhdPHfR7PAhv6TnTjcYLh2LGeTuRcg&s"
-                      alt="Produk Unggulan 1"
-                    />
-                    <figcaption><h4>Hanya Rp.8000</h4></figcaption>
-                  </figure>
-                  <p>
-                    Orang Sunda demennya yang pedes-pedes, sudah tentu kripset
-                    menjadi andalan cemilan pedasnya. Kripset (Keripik Setan)
-                    merk Kembar adalah kripik pedas dengan kualitas terbaik di
-                    kelasnya. Harganya yang murah menjadikannya top camilan bagi
-                    orang-orang yang menyukai makanan pedas. Di Toko Hj. Nanan,
-                    kami menjual kripset kembar dengan harga Rp.8000 saja.
-                    Sangat murah dan memuaskan.
-                  </p>
-                </div>
-              </div>
-              <div class="card">
-                <h3>Kripset Kembar (Pak)</h3>
-                <div class="card-description">
-                  <figure>
-                    <img
-                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlWiufnhdPHfR7PAhv6TnTjcYLh2LGeTuRcg&s"
-                      alt="Produk Unggulan 1"
-                    />
-                    <figcaption><h4>Hanya Rp.8000</h4></figcaption>
-                  </figure>
-                  <p>
-                    Orang Sunda demennya yang pedes-pedes, sudah tentu kripset
-                    menjadi andalan cemilan pedasnya. Kripset (Keripik Setan)
-                    merk Kembar adalah kripik pedas dengan kualitas terbaik di
-                    kelasnya. Harganya yang murah menjadikannya top camilan bagi
-                    orang-orang yang menyukai makanan pedas. Di Toko Hj. Nanan,
-                    kami menjual kripset kembar dengan harga Rp.8000 saja.
-                    Sangat murah dan memuaskan.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </article>
-        <article>
-          <div class="featured">
-            <h2>Produk Unggulan</h2>
-            <div class="featured-products">
-              <div class="card">
-                <h3>Kripset Kembar (Pak)</h3>
-                <div class="card-description">
-                  <figure>
-                    <img
-                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlWiufnhdPHfR7PAhv6TnTjcYLh2LGeTuRcg&s"
-                      alt="Produk Unggulan 1"
-                    />
-                    <figcaption><h4>Hanya Rp.8000</h4></figcaption>
-                  </figure>
-                  <p>
-                    Orang Sunda demennya yang pedes-pedes, sudah tentu kripset
-                    menjadi andalan cemilan pedasnya. Kripset (Keripik Setan)
-                    merk Kembar adalah kripik pedas dengan kualitas terbaik di
-                    kelasnya. Harganya yang murah menjadikannya top camilan bagi
-                    orang-orang yang menyukai makanan pedas. Di Toko Hj. Nanan,
-                    kami menjual kripset kembar dengan harga Rp.8000 saja.
-                    Sangat murah dan memuaskan.
-                  </p>
-                </div>
-              </div>
-              <div class="card">
-                <h3>Kripset Kembar (Pak)</h3>
-                <div class="card-description">
-                  <figure>
-                    <img
-                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlWiufnhdPHfR7PAhv6TnTjcYLh2LGeTuRcg&s"
-                      alt="Produk Unggulan 1"
-                    />
-                    <figcaption><h4>Hanya Rp.8000</h4></figcaption>
-                  </figure>
-                  <p>
-                    Orang Sunda demennya yang pedes-pedes, sudah tentu kripset
-                    menjadi andalan cemilan pedasnya. Kripset (Keripik Setan)
-                    merk Kembar adalah kripik pedas dengan kualitas terbaik di
-                    kelasnya. Harganya yang murah menjadikannya top camilan bagi
-                    orang-orang yang menyukai makanan pedas. Di Toko Hj. Nanan,
-                    kami menjual kripset kembar dengan harga Rp.8000 saja.
-                    Sangat murah dan memuaskan.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </article>
-      </div>
-      <!-- Aside here -->
-      <aside></aside>
+      </aside>
     </main>
     <footer>
       <!-- Coyright -->
       <div class="address">
+        <h3>Copyright</h3>
         <p>
-          Jl. Lettu Bakrie No.7, Nyomplong, Kec. Warudoyong, Kota Sukabumi, Jawa
-          Barat 43131
+          This project is created as landing page training from Dicoding Coding
+          Camp 2026. Created by:
+          <a href="https://facebook.com/alf.mhaidar" target="_blank"
+            >Muhamad Haidar Al-Farruq</a
+          >
+          . Date updated: 17 April 2026.
         </p>
-      </div>
-      <div class="map">
-        <div class="embed-map-responsive">
-          <div class="embed-map-container">
-            <iframe
-              class="embed-map-frame"
-              frameborder="0"
-              scrolling="no"
-              marginheight="0"
-              marginwidth="0"
-              src="https://maps.google.com/maps?width=600&height=400&hl=en&q=Toko%20Nanan%20kue%20basah%20dan%20kering&t=&z=16&ie=UTF8&iwloc=B&output=embed"
-            ></iframe
-            ><a
-              href="https://idolsofash.app"
-              style="
-                font-size: 2px !important;
-                color: gray !important;
-                position: absolute;
-                bottom: 0;
-                left: 0;
-                z-index: 1;
-                max-height: 1px;
-                overflow: hidden;
-              "
-              >Idols of Ash</a
-            >
-          </div>
-        </div>
       </div>
     </footer>
   </body>
